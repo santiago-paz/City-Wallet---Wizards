@@ -9,6 +9,7 @@ import {
   Tag,
   Settings,
   Sparkles,
+  Store,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -17,6 +18,7 @@ const items = [
   { href: "/products", label: "Products", icon: Package },
   { href: "/monitoring", label: "Monitoring", icon: Activity },
   { href: "/offers", label: "Live offers", icon: Tag },
+  { href: "/register", label: "Register restaurant", icon: Store },
   { href: "/settings", label: "Settings", icon: Settings },
 ];
 
