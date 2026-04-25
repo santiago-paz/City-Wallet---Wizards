@@ -10,11 +10,13 @@ import {
   Settings,
   Sparkles,
   Store,
+  Wand2,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const items = [
   { href: "/", label: "Overview", icon: LayoutDashboard },
+  { href: "/onboarding", label: "Onboarding", icon: Wand2 },
   { href: "/products", label: "Products", icon: Package },
   { href: "/monitoring", label: "Monitoring", icon: Activity },
   { href: "/offers", label: "Live offers", icon: Tag },
